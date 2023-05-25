@@ -13,5 +13,5 @@ const htmlDocument = parser.parseFromString(
 const parsedHTML = htmlDocument.documentElement;
 
 // Append the parsed HTML to a container element
-const container = document.querySelector('[wb-element="parsed-html-containe"]');
+const container = document.querySelector('[wb-element="parsed-html-container"]');
 container.appendChild(parsedHTML);
