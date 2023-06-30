@@ -1,0 +1,173 @@
+.mktoForm {
+    color: inherit !important;
+    font-size: inherit !important;
+    width: 100% !important;
+}
+
+.mktoForm legend, .mktoForm .mktoGutter, .mktoForm .mktoOffset {
+    display: none
+}
+
+.mktoForm .mktoHtmlText {
+    width: 100% !important
+}
+
+.mktoForm fieldset {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+.mktoForm label {
+    font-family: 'TT Hoves Pro, sans-serif';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    float: none !important;
+    width: 100% !important;
+    padding-top: 0 !important
+}
+
+.mktoForm .mktoButton {
+    width: auto !important;
+    box-sizing: border-box !important;
+    color: #212529 !important;
+    font-family: 'TT Hoves Pro, sans-serif';
+    font-weight: 500;
+    text-shadow: none;
+    text-transform: uppercase
+}
+
+.mktoForm .mktoButton:hover {
+    font-family: 'TT Hoves Pro, sans-serif' !important
+}
+
+.mktoForm input, .mktoForm select, .mktoForm textarea {
+    box-sizing: border-box !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100% !important
+}
+
+.mktoForm .mktoCheckboxList {
+    width: 100% !important
+}
+
+.mktoForm .mktoCheckboxList input {
+    width: auto !important;
+    height: auto !important;
+    margin-right: 10px;
+    text-align: left
+}
+
+.mktoForm .mktoRadioList {
+    width: 100% !important
+}
+
+.mktoForm .mktoRadioList input {
+    width: 20px !important;
+    height: auto;
+    margin-right: 10px
+}
+
+.mktoForm .mktoRadioList label, .mktoForm .mktoCheckboxList label {
+    font-weight: 400;
+    text-transform: unset
+}
+
+.mktoForm .mktoField, .mktoForm .mktoLogicalField {
+    clear: inherit !important;
+}
+
+.mktoForm .mktoField {
+    color: black !important;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    border-radius: 7px;
+}
+
+.mktoForm .mktoFormCol {
+    position: relative;
+    text-align: left;
+    margin-bottom: .7rem !important;
+    width: 100%;
+    min-height: auto !important
+}
+
+.mktoForm fieldset.mktoFormCol {
+    margin-bottom: 0 !important
+}
+
+.mktoForm fieldset .mktoFormCol {
+    width: 100%
+}
+
+.mktoForm .mktoFormRow {
+    width: 100%
+}
+
+.mktoForm .mktoFieldWrap {
+    float: none !important;
+    margin-bottom: 0.7rem;
+}
+
+.mktoForm .mktoError {
+    font-size: 12px
+}
+
+.mktoForm .mktoButtonWrap {
+    margin: 0 !important
+}
+
+.mktoForm .mktoAsterix {
+    display: none !important
+}
+
+.mktoForm .mktoRequiredField label:after {
+    content: " *";
+    color: #3aff9f
+}
+
+.mktoForm .mktoRequiredField .mktoCheckboxList label:after, .mktoForm .mktoRequiredField .mktoRadioList label:after {
+    content: ""
+}
+
+.mktoForm .mktoButtonRow {
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 100px;
+    background-color: #3aff9f;
+    font-weight: 800
+}
+
+.mktoForm button.mktoButton {
+    background: none;
+}
+
+.mktoForm .legal-consent {
+    font-size: 12px;
+    color: inherit;
+    font-family: inherit;
+    text-align: left
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.mktoForm .legal-consent.withCheckbox {
+    margin: -45px 40px 0 0 !important;
+    position: relative;
+    left: 40px;
+    pointer-events: all
+}
+
+.mktoForm .mktoFormCol:has(.withCheckbox) {
+    pointer-events: none
+}
