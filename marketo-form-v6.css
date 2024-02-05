@@ -185,4 +185,8 @@
   .mktoForm .mktoFormCol:has(.withCheckbox) {
     pointer-events: none;
   }
+
+input {
+border: 0px !important;
+}
   
