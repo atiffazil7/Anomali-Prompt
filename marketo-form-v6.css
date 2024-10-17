@@ -143,6 +143,7 @@
     padding: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    border-radius: 0px;
     background-color: #3aff9f;
     font-weight: 600;
   }
@@ -153,6 +154,7 @@
     padding: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    border-radius: 0px;
     background-color: #3aff9f;
     font-weight: 600;
   }
